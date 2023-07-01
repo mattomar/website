@@ -1,17 +1,57 @@
+.body{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+
+}
+
 .header{
     background-color: #1f2937;
     display: flex;
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .title{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
-    font-family: "roboto", Georgia, 'Times New Roman', Times, serif;
 }
 
 li{
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+
+}
+
+ul{
+    display: flex;
+    gap: 14px;
+}
+
+.header-body{
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+
+*{
+    box-sizing: border-box;
+
 }
