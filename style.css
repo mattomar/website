@@ -1,11 +1,11 @@
-.body{
-margin: 0;
-padding: 0;
-font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
 
 }
 
-.header{
+.header {
     background-color: #1f2937;
     display: flex;
     flex: 1;
@@ -13,13 +13,14 @@ font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
     padding-right: 100px;
 }
 
-.title{
+.title {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    padding-bottom: 10px;
 }
 
-li{
+li {
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
@@ -30,18 +31,21 @@ li{
 
 }
 
-ul{
+ul {
     display: flex;
     gap: 14px;
 }
 
-.header-body{
+.header-body {
     display: flex;
     background-color: #1f2937;
-
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-grow: 1;
 }
 
-.logo{
+
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -51,7 +55,43 @@ ul{
     padding: 20px;
 }
 
-*{
+* {
     box-sizing: border-box;
 
+}
+
+
+.fbody {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+    flex-shrink: 0;
+}
+
+.info {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+}
+
+button.no-shadow {
+    background-color: #3882f6;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+.toys{
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 70px;
+    padding: 20px;
+    height: auto;
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
